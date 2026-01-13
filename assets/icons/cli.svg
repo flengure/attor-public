@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <style>
+    .c1 { fill:#F37A1F; }  /* orange – arrows */
+    .c2 { fill:#1A5490; }  /* navy – outer box */
+  </style>
+
+  <!-- Outer box -->
+  <path class="c2"
+    d="M432 32H80A64 64 0 0 0 16 96v320a64 64 0 0 0 64 64h352a64 64 0 0 0 64-64V96a64 64 0 0 0-64-64z"/>
+
+  <!-- Left chevron -->
+  <path class="c1"
+    d="M96 256a16 16 0 0 1-10-28.49L150.39 176 86 124.49a16 16 0 1 1 20-25l80 64a16 16 0 0 1 0 25l-80 64A16 16 0 0 1 96 256z"/>
+
+  <!-- Horizontal bar -->
+  <path class="c1"
+    d="M192 224h64a16 16 0 0 1 0 32h-64a16 16 0 0 1 0-32z"/>
+</svg>

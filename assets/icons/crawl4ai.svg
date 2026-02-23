@@ -1,25 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="35" viewBox="0 0 120 35">
-  <!-- Dark Theme -->
-  <g>
-    <defs>
-      <pattern id="halftoneDark" width="4" height="4" patternUnits="userSpaceOnUse">
-        <circle cx="2" cy="2" r="1" fill="#eee" opacity="0.1"/>
-      </pattern>
-      <pattern id="halftoneTextDark" width="3" height="3" patternUnits="userSpaceOnUse">
-        <circle cx="1.5" cy="1.5" r="2" fill="#aaa" opacity="0.2"/>
-      </pattern>
-    </defs>
-    <!-- White border - added as outer rectangle -->
-    <rect width="120" height="35" rx="5" fill="#111"/>
-    <!-- Dark background slightly smaller to show thicker border -->
-    <rect x="2" y="2" width="116" height="31" rx="4" fill="#1a1a1a"/>
-    <rect x="2" y="2" width="116" height="31" rx="4" fill="url(#halftoneDark)"/>
-    
-    <!-- Logo with halftone -->
-    <path d="M30 17.5 a7.5 7.5 0 1 1 -15 0 a7.5 7.5 0 1 1 15 0" fill="none" stroke="#eee" stroke-width="2"/>
-    <path d="M18 17.5 L27 17.5" stroke="#eee" stroke-width="2"/>
-    <circle cx="22.5" cy="17.5" r="2" fill="#eee"/>
-    
-    <text x="40" y="23" fill="#eee" font-family="Arial, sans-serif" font-weight="500" font-size="14">Crawl4AI</text>
-  </g>
+<?xml version="1.0" standalone="no"?>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="200.000000pt" height="200.000000pt" viewBox="0 0 200.000000 200.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+fill="#48D9D9" stroke="none">
+<path d="M624 1494 c8 -3 93 -100 187 -215 95 -115 178 -209 184 -209 7 0 84 87
+171 193 214 259 189 237 278 237 41 0 77 -4 80 -9 3 -5 -67 -98 -157 -207
+-222 -273 -230 -283 -224 -297 3 -6 89 -115 191 -241 102 -125 183 -232 180
+-237 -3 -5 -40 -9 -82 -9 l-76 0 -38 43 c-21 23 -100 119 -176 212 -75 94
+-142 170 -147 170 -6 0 -68 -72 -138 -160 -71 -88 -149 -184 -173 -212 l-45
+-53 -80 0 c-58 0 -79 3 -79 13 0 7 83 116 185 241 102 126 185 234 185 240 0
+10 -262 341 -351 444 -46 52 -40 62 40 62 38 0 76 -3 85 -6z"/>
+<path d="M490 1240 c25 -6 210 -223 210 -245 0 -5 -41 -60 -90 -122 -78 -97 -96 -114 -131 -123 -88
+-24 -88 -14 -2 96 44 55 88 112 97 127 l18 26 -96 124 c-52 68 -93 127 -89
+130 6 6 17 4 83 -13z"/>
+<path d="M1592 1237 c-113 -145 -182 -236 -182 -242 0 -4 43 -62 96
+-128 102 -131 103 -137 19 -119 -35 7 -50 21 -132 122 -51 63 -93 119 -93 125
+0 6 42 63 94 127 90 110 97 116 143 125 53 10 69 7 55 -10z"/>
+</g>
 </svg>
